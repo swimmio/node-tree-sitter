@@ -85,6 +85,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
       - run: npm install
       - if: runner.os == 'macOS'
         run: ${{ env.NODE_PREBUILD_CMD }} --arch arm64
