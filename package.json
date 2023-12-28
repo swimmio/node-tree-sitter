@@ -1,12 +1,12 @@
 {
-  "name": "tree-sitter",
-  "version": "0.20.6",
+  "name": "@swimm/tree-sitter",
+  "version": "0.20.7",
   "description": "Incremental parsers for node",
   "author": "Max Brunsfeld",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/tree-sitter/node-tree-sitter.git"
+    "url": "git+ssh://git@github.com/swimmio/node-tree-sitter.git"
   },
   "keywords": [
     "parser",
@@ -25,7 +25,7 @@
     "mocha": "^8.4.0",
     "node-gyp": "^10.0.1",
     "prebuild": "^12.0.0",
-    "tree-sitter-javascript": "https://github.com/tree-sitter/tree-sitter-javascript.git#master"
+    "tree-sitter-javascript": "git+https://github.com/tree-sitter/tree-sitter-javascript.git#master"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
