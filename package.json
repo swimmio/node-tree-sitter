@@ -1,6 +1,6 @@
 {
-  "name": "tree-sitter",
-  "version": "0.21.1",
+  "name": "@swimmio/tree-sitter",
+  "version": "0.21.2+swimm",
   "description": "Incremental parsers for node",
   "author": "Max Brunsfeld",
   "contributors": [
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/tree-sitter/node-tree-sitter.git"
+    "url": "http://github.com/swimmio/node-tree-sitter.git"
   },
   "keywords": [
     "incremental",
